@@ -1,0 +1,19 @@
+{
+  "name": "housingoperationsproject",
+  "version": "1.0.0",
+  "description": "Cognitive Computing project for Housing Operations using IBM Watson",
+  "main": "housingoperationsmain.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "watson"
+  ],
+  "author": "Kowsic Jayachandiran, Suchit Chandrashekhara Arodi, Goutham Nadig",
+  "license": "ISC",
+  "dependencies": {
+    "jsonfile": "^3.0.0",
+    "solr": "^0.3.0",
+    "watson-developer-cloud": "^2.29.0"
+  }
+}

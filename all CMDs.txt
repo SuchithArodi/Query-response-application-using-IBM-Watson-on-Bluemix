@@ -1,0 +1,48 @@
+python /home/stu14/s17/kj4401/Courses/Cogn/HousingOperationsProject/train.py -u e9f543fb-e8c4-44eb-bf7f-2a1ae2a285d6:d7GkJAdBclWv -i /home/stu14/s17/kj4401/Courses/Cogn/HousingOperationsProject/trainingFaqs.csv -c scd2968656_0ff2_4fcd_948a_56c37e87ef1f -x HousingCollection -n "HousingRanker"
+
+
+
+python /home/stu14/s17/kj4401/Courses/Cogn/HousingOperationsProject/train.py -u 7af47d0f-cdc7-47f4-8b3d-31d9f48e11c9:rinMDTuWcvaB -i /home/stu14/s17/kj4401/Courses/Cogn/HousingOperationsProject/trainingFaqs.csv -c sca37cb9ff_1b1b_48f5_9c03_fe4577e64a55 -x HousingCollection -n "HousingRanker"
+
+python train.py -u {retrieve_and_rank_username:retrieve_and_rank_password} -i {ground_truth_file} -c {cluster_id} -x {collection_name} -n "{user_defined_ranker_name}"
+
+sca37cb9ff_1b1b_48f5_9c03_fe4577e64a55
+
+
+7af47d0f-cdc7-47f4-8b3d-31d9f48e11c9",
+"password": "rinMDTuWcvaB"
+
+rankerid: 1eec74x28-rank-5092
+
+ranker id: 1eec7cx29-rank-5182
+1eec74x28-rank-5096
+1eec74x28-rank-5100
+81aacex30-rank-2195
+
+===========================================
+
+npm install watson-developer-cloud --save
+npm install solr --save
+npm install jsonfile --save
+create a ckuster online on bluemix - copy the cluster id
+change ipconfig.js -- filedirec,jsondir
+run docconversion.js
+change ipconfig - clusterid,confignaame,
+run uploadsolrconfig  - status 200
+change ipconfig -- collectionname
+run indexdocuments - a collection was created on bluemix - update schema
+
+
+
+docconversion.js
+uploadsolrconfiguration.js
+indexdocuments.js
+python train.py  - get ranker ID using rankerlist.js
+askquestions.js
+
+============================================
+
+
+reference to solr in appendix 3rd point
+train.py reference in appendix
+
